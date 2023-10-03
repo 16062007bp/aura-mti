@@ -1,1 +1,2 @@
-document.querySelector(.tecla_pom);
+
+docement.quertysector(#som_tecla_pom).play();
