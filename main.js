@@ -9,12 +9,12 @@ let contador = 0;
 //Criando o código de repetição WHILE
 //enquanto o contador for menos que o comprimento da lista, tocará o som. 11 while (contador < listaDeTeclas. Length)
 const tecla= listaDeTeclas [contador]
-const efeito = tecla.classList[1];
-const idAudio = "#som "+efeito;
-listaDeTeclascontrador
-conts idAudio= `#som_$ efeito`;
+const efeito = tecla.classList[1]; //chama a clesse do indice 1 do som
+const idAudio = #som +efeito;
+listaDeTeclascontador
+conts idAudio= `#som_$ efeito`; //juncao com template string
 tecla.
-tecla.onclick = function(){}
+tecla.onclick = function(){} //funcao anonima para tocaSom
     tocaSom (idAudio);
     contador contador + 1;
     console.log(contador);
