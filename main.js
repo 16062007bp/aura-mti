@@ -19,5 +19,7 @@ tecla.onclick = function(){} //funcao anonima para tocaSom
     contador contador + 1;
     console.log(contador);
     {
-
+    tecla.onkeysown = 
+        
 }
+
