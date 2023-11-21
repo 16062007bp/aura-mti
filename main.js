@@ -1,9 +1,14 @@
 //criando/declarando a função tocaSom com parâmetro idElementoAudio
 unction tocaSom (idElementoAudio) {
     document.querySelector(idElementoAudio).play();
+    const elemento =  document.querySelectorAll('.tecla');
+    //condisonal if (se) e else(sensao)operador de comparacao && (E)
+     (elemento &&elemento.localname=== Audio){
+}else{
+    console.log ("Elemnto invalido ou nao encontrado")
 }
 //criando a referência constante listaDeTeclas
-const listaDeTeclas = document.querySelectorAll('.tecla');
+const listaDeTeclas 
 //criando referência variável contador, atribuindo o valor inicial como "0"
 let contador = 0;
 //Criando o código de repetição WHILE
@@ -20,6 +25,13 @@ tecla.onclick = function(){} //funcao anonima para tocaSom
     console.log(contador);
     {
     tecla.onkeysown = 
+
+    tecla.onkeyup
         
 }
+tecla.onkeyup = function ()//funcao para tecla despressionada
+    tecla.classList.remove(ativa);
+    
+    }
 
+}
